@@ -4,6 +4,8 @@
     "stdlib.h": "c",
     "stdio.h": "c",
     "freertos.h": "c",
-    "freertosconfig.h": "c"
+    "freertosconfig.h": "c",
+    "i2c.h": "c",
+    "task.h": "c"
   }
 }

@@ -25,6 +25,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 # FreeRTOS-Kernel-Static
 target_link_libraries(${PROJECT_NAME}
   pico_stdlib
+  hardware_i2c
   FreeRTOS-Kernel-Heap4
 )
 

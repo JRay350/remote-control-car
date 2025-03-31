@@ -65,7 +65,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
@@ -429,6 +429,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 2,
 					"path" : "C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include"
 				},
 				{
@@ -499,7 +503,8 @@
 				53,
 				54,
 				55,
-				56
+				56,
+				57
 			]
 		},
 		{
@@ -841,6 +846,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include"
 				},
 				{
 					"backtrace" : 2,
@@ -1233,6 +1242,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include"
 				},
 				{
 					"backtrace" : 2,
@@ -2167,7 +2180,8 @@
 				53,
 				54,
 				55,
-				56
+				56,
+				57
 			]
 		},
 		{
@@ -2464,6 +2478,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c",
 			"sourceGroupIndex" : 0
 		},
 		{

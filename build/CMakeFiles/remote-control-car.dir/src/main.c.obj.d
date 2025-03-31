@@ -29,15 +29,15 @@ CMakeFiles/remote-control-car.dir/src/main.c.obj: \
  c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\sys\sched.h \
  c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\machine\types.h \
  c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\sys\stdio.h \
+ c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\stdint.h \
+ c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\sys\_intsup.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\common\PICO_S~1\include/pico/stdlib.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico/types.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico/assert.h \
  c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\assert.h \
- c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
- c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\stdint.h \
- c:\progra~1\raspbe~1\picosd~1.1\gcc-ar~1\arm-none-eabi\include\sys\_intsup.h \
  C:\development\remote-control-car\build\generated\pico_base/pico/version.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico/config.h \
  C:\development\remote-control-car\build\generated\pico_base/pico/config_autogen.h \
@@ -73,6 +73,9 @@ CMakeFiles/remote-control-car.dir/src/main.c.obj: \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/uart.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/dreq.h \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\PICO_S~4\include/pico/stdio_uart.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA15F1~1\include/hardware/i2c.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/i2c.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/i2c.h \
  C:\VSARM\FreeRTOS-Kernel\include/FreeRTOS.h \
  C:\VSARM\FreeRTOS-Kernel\include/projdefs.h \
  C:\VSARM\FreeRTOS-Kernel\include/portable.h \
