@@ -26,7 +26,11 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 target_link_libraries(${PROJECT_NAME}
   pico_stdlib
   hardware_i2c
+  hardware_pio
   FreeRTOS-Kernel-Heap4
+  nec_receive
 )
+
+add_subdirectory(nec_receive)
 
 pico_add_extra_outputs(${PROJECT_NAME})

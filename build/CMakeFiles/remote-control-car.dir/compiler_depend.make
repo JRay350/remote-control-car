@@ -626,6 +626,56 @@ CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/assert.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/boards/include/boards/pico.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  C:/development/remote-control-car/FreeRTOSConfig.h \
+  C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/error.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_time/include/pico/time.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h
+
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico.h \
@@ -672,6 +722,58 @@ CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/assert.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/boards/include/boards/pico.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  C:/development/remote-control-car/FreeRTOSConfig.h \
+  C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/types.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/error.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h
 
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
@@ -2330,6 +2432,9 @@ CMakeFiles/remote-control-car.dir/src/main.c.obj: C:/development/remote-control-
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   C:/VSARM/FreeRTOS-Kernel/include/FreeRTOS.h \
   C:/VSARM/FreeRTOS-Kernel/include/projdefs.h \
   C:/VSARM/FreeRTOS-Kernel/include/portable.h \
@@ -2338,7 +2443,12 @@ CMakeFiles/remote-control-car.dir/src/main.c.obj: C:/development/remote-control-
   C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   C:/VSARM/FreeRTOS-Kernel/include/mpu_wrappers.h \
   C:/VSARM/FreeRTOS-Kernel/include/task.h \
-  C:/VSARM/FreeRTOS-Kernel/include/list.h
+  C:/VSARM/FreeRTOS-Kernel/include/list.h \
+  C:/development/remote-control-car/nec_receive/nec_receive.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
+  C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h
 
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_base/include/pico/types.h:
@@ -2605,13 +2715,37 @@ C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_s
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
-C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+C:/VSARM/FreeRTOS-Kernel/include/projdefs.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/unistd.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h:
+
+C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c:
 
@@ -2622,8 +2756,6 @@ C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardwa
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
-
-C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
@@ -2699,8 +2831,6 @@ C:/VSARM/FreeRTOS-Kernel/queue.c:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/unistd.h:
 
-C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/unistd.h:
-
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
@@ -2723,6 +2853,8 @@ C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eab
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h:
 
+C:/development/remote-control-car/nec_receive/nec_receive.h:
+
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:
 
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eabi/include/sys/stat.h:
@@ -2730,8 +2862,6 @@ C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/gcc-arm-none-eabi/arm-none-eab
 C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
 C:/VSARM/FreeRTOS-Kernel/croutine.c:
-
-C:/VSARM/FreeRTOS-Kernel/include/projdefs.h:
 
 C:/VSARM/FreeRTOS-Kernel/include/portable.h:
 

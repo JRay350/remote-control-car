@@ -650,6 +650,17 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
+		},
+		{
+			"path" : "nec_receive/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools/pico-sdk-tools-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools/pico-sdk-tools-config.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

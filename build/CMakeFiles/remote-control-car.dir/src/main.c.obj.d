@@ -84,4 +84,9 @@ CMakeFiles/remote-control-car.dir/src/main.c.obj: \
  C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA2A15~1\include/hardware/sync.h \
  C:\VSARM\FreeRTOS-Kernel\include/mpu_wrappers.h \
  C:\VSARM\FreeRTOS-Kernel\include/task.h \
- C:\VSARM\FreeRTOS-Kernel\include/list.h
+ C:\VSARM\FreeRTOS-Kernel\include/list.h \
+ C:\development\remote-control-car\nec_receive/nec_receive.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA7843~1\include/hardware/pio.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/pio.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/pio.h \
+ C:\PROGRA~1\RASPBE~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA7843~1\include/hardware/pio_instructions.h

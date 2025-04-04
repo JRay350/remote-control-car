@@ -715,10 +715,24 @@ CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c" -o CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/remote-control-car.dir/flags.make
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c"
+
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c" > CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c.i
+
+CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c" -o CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: C:/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj -c C:\VSARM\FreeRTOS-Kernel\portable\MemMang\heap_4.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -732,7 +746,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c.obj -c C:\VSARM\FreeRTOS-Kernel\portable\ThirdParty\GCC\RP2040\port.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -746,7 +760,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/G
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj: C:/VSARM/FreeRTOS-Kernel/croutine.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\croutine.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\croutine.c.obj -c C:\VSARM\FreeRTOS-Kernel\croutine.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -760,7 +774,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.s: cmake_f
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj: C:/VSARM/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\event_groups.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\event_groups.c.obj -c C:\VSARM\FreeRTOS-Kernel\event_groups.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -774,7 +788,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/event_groups.c.s: cma
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj: C:/VSARM/FreeRTOS-Kernel/list.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\list.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\list.c.obj -c C:\VSARM\FreeRTOS-Kernel\list.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -788,7 +802,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/list.c.s: cmake_force
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj: C:/VSARM/FreeRTOS-Kernel/queue.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\queue.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\queue.c.obj -c C:\VSARM\FreeRTOS-Kernel\queue.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -802,7 +816,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/queue.c.s: cmake_forc
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj: C:/VSARM/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\stream_buffer.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\stream_buffer.c.obj -c C:\VSARM\FreeRTOS-Kernel\stream_buffer.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -816,7 +830,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/stream_buffer.c.s: cm
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj: C:/VSARM/FreeRTOS-Kernel/tasks.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\tasks.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\tasks.c.obj -c C:\VSARM\FreeRTOS-Kernel\tasks.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -830,7 +844,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/tasks.c.s: cmake_forc
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj: C:/VSARM/FreeRTOS-Kernel/timers.c
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\timers.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\VSARM\FreeRTOS-Kernel\timers.c.obj -c C:\VSARM\FreeRTOS-Kernel\timers.c
 
 CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -844,7 +858,7 @@ CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/timers.c.s: cmake_for
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj -c "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_exception\exception.c"
 
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -858,7 +872,7 @@ CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/remote-control-car.dir/flags.make
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: C:/Program\ Files/Raspberry\ Pi/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/remote-control-car.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\remote-control-car.dir\C_\Program_Files\Raspberry_Pi\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk\src\rp2_common\pico_multicore\multicore.c"
 
 CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -918,6 +932,7 @@ remote__control__car_OBJECTS = \
 "CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
 "CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" \
 "CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj" \
 "CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj" \
@@ -980,6 +995,7 @@ remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspb
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kernel/croutine.c.obj
@@ -992,10 +1008,11 @@ remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/VSARM/FreeRTOS-Kern
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/build.make
+remote-control-car.elf: nec_receive/libnec_receive.a
 remote-control-car.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/objects1
 remote-control-car.elf: CMakeFiles/remote-control-car.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable remote-control-car.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\development\remote-control-car\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable remote-control-car.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\remote-control-car.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\gcc-arm-none-eabi\bin\arm-none-eabi-objcopy.exe" -Oihex C:/development/remote-control-car/build/remote-control-car.elf remote-control-car.hex
 	"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\gcc-arm-none-eabi\bin\arm-none-eabi-objcopy.exe" -Obinary C:/development/remote-control-car/build/remote-control-car.elf remote-control-car.bin

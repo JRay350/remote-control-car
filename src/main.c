@@ -7,23 +7,60 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+#include "nec_receive.h"
+
 #define RED_LED_PIN 7
 #define USER_BUTTON 10
 #define MOTOR_DRIVER_SDA 4
 #define MOTOR_DRIVER_SCL 5
+#define RX_GPIO 0
 
 #define MOTOR_DRIVER_ADDR (0x22)
 
 #define OFF 0
 #define ON 1
 
+#define UP_BUTTON 0x18
+#define DOWN_BUTTON 0x52
+#define LEFT_BUTTON 0x08
+#define RIGHT_BUTTON 0x5a
+#define STOP_BUTTON 0x1c
+
 #define BIT(n)  (1u<<(n)) // Macro to define a bitmask
 
-struct motor_driver_values {
-    uint8_t motor_number;
-    uint8_t speed;
-    uint8_t direction;
-};
+void DriveMotor(uint8_t motor_number, uint8_t speed, uint8_t direction) {
+    uint8_t data[5];
+    data[0] = (0x26);
+    data[1] = motor_number;
+    data[2] = speed;
+    data[3] = direction;
+    data[4] = motor_number ^ speed ^ direction;
+
+    i2c_write_blocking(i2c_default, MOTOR_DRIVER_ADDR, data, 5, false);
+}
+
+void DriveMotorForward() {
+    DriveMotor(1, 255, 1);
+    DriveMotor(2, 255, 1);
+}
+
+void DriveMotorLeft() {
+    DriveMotor(1, 255, 1);
+}
+
+void DriveMotorRight() {
+    DriveMotor(2, 255, 1);
+}
+
+void DriveMotorReverse() {
+    DriveMotor(1, 255, 0);
+    DriveMotor(2, 255, 0);
+}
+
+void DriveMotorStop() {
+    DriveMotor(1, 0, 0);
+    DriveMotor(2, 0, 0);
+}
 
 void RedLEDTask(void* param) {
     while (1) {
@@ -36,20 +73,44 @@ void RedLEDTask(void* param) {
 }
 
 void DriveMotorsTask(void* param) {
+    PIO pio = pio0;
+    int rx_sm = nec_rx_init(pio, RX_GPIO);
 
-    struct motor_driver_values* values = (struct motor_driver_values*) param;
+    uint8_t rx_address = 0x00;
+    uint8_t rx_data = 0x00;
 
     while (1) {
-        uint8_t data[5];
-        data[0] = (0x26);
-        data[1] = (*values).motor_number;
-        data[2] = (*values).speed;
-        data[3] = (*values).direction;
-        data[4] = (*values).motor_number ^ (*values).speed ^ (*values).direction;
-
-        i2c_write_blocking(i2c_default, MOTOR_DRIVER_ADDR, data, 5, false);
+        if (!pio_sm_is_rx_fifo_empty(pio, rx_sm)) {
+            uint32_t rx_frame = pio_sm_get(pio, rx_sm);
+            if (nec_decode_frame(rx_frame, &rx_address, &rx_data)) {
+                switch(rx_data) {
+                    case UP_BUTTON:
+                        DriveMotorStop();
+                        DriveMotorForward();
+                        break;
+                    case RIGHT_BUTTON:
+                        DriveMotorStop();
+                        DriveMotorRight();
+                        break;
+                    case DOWN_BUTTON:
+                        DriveMotorStop();
+                        DriveMotorReverse();
+                        break;
+                    case LEFT_BUTTON:
+                        DriveMotorStop();
+                        DriveMotorLeft();
+                        break;
+                    case STOP_BUTTON:
+                        DriveMotorStop();
+                        break;
+                    default:
+                        break;
+                }
+                rx_data = 0;
+            }
+        }
+        vTaskDelay(10);
     }
-
 }
 
 int main() {
@@ -71,14 +132,14 @@ int main() {
     gpio_pull_up(MOTOR_DRIVER_SDA);
     gpio_pull_up(MOTOR_DRIVER_SCL);
 
+    PIO pio = pio0;
+    int rx_sm = nec_rx_init(pio, RX_GPIO);
+
+    uint8_t rx_address = 0x00;
+    uint8_t rx_data = 0x00;
+
     TaskHandle_t rLEDTask = NULL;
     TaskHandle_t dMotorsTask = NULL;
-
-    struct motor_driver_values motor_vals;
-    motor_vals.motor_number = 1;
-    motor_vals.speed = 150;
-    motor_vals.direction = 1;
-
 
     uint32_t status = xTaskCreate(
                     RedLEDTask,
@@ -92,8 +153,8 @@ int main() {
             DriveMotorsTask,
             "Drive Motors",
             1024,
-            (void*) &motor_vals,
-            0,
+            NULL,
+            1,
             &dMotorsTask);
     
     while (gpio_get(USER_BUTTON) == OFF) {

@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						81
+						81,
+						82
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -20,7 +21,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -788,8 +789,8 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/tinyusb",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						7,
+						8
 					]
 				},
 				{
@@ -1028,6 +1029,22 @@
 					"parentIndex" : 0,
 					"projectIndex" : 2,
 					"source" : "C:/VSARM/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040"
+				},
+				{
+					"build" : "nec_receive",
+					"jsonFile" : "directory-nec_receive-Debug-8d82698835130e978847.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "nec_receive",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1041,12 +1058,15 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						82
 					],
 					"name" : "remote-control-car",
 					"targetIndexes" : 
 					[
-						4
+						4,
+						5,
+						6
 					]
 				},
 				{
@@ -1141,8 +1161,8 @@
 						1,
 						2,
 						3,
-						5,
-						6
+						7,
+						8
 					]
 				},
 				{
@@ -1185,9 +1205,23 @@
 					"projectIndex" : 1
 				},
 				{
+					"directoryIndex" : 82,
+					"id" : "nec_receive::@f9333cacba825e76858e",
+					"jsonFile" : "target-nec_receive-Debug-6a6ae1ab7d9a4eab58c1.json",
+					"name" : "nec_receive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "nec_receive_nec_receive_pio_h::@f9333cacba825e76858e",
+					"jsonFile" : "target-nec_receive_nec_receive_pio_h-Debug-9c8bc425cae6ae8afa97.json",
+					"name" : "nec_receive_nec_receive_pio_h",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "remote-control-car::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-remote-control-car-Debug-3eae68d16fd0c585cf89.json",
+					"jsonFile" : "target-remote-control-car-Debug-2df2edec5f98b40e0afc.json",
 					"name" : "remote-control-car",
 					"projectIndex" : 0
 				},

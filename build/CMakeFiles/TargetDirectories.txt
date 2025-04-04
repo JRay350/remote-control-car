@@ -169,3 +169,7 @@ C:/development/remote-control-car/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/development/remote-control-car/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 C:/development/remote-control-car/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
 C:/development/remote-control-car/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
+C:/development/remote-control-car/build/nec_receive/CMakeFiles/nec_receive.dir
+C:/development/remote-control-car/build/nec_receive/CMakeFiles/nec_receive_nec_receive_pio_h.dir
+C:/development/remote-control-car/build/nec_receive/CMakeFiles/edit_cache.dir
+C:/development/remote-control-car/build/nec_receive/CMakeFiles/rebuild_cache.dir
